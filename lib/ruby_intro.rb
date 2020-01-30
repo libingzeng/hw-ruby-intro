@@ -90,7 +90,7 @@ end
 
 def binary_multiple_of_4? s
     arr = s.each_byte.to_a
-    puts arr
+    #puts arr
     
     if arr.length == 0 # empty string
         return false
